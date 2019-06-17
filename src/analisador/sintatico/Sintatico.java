@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Analisador.sintatico;
+package analisador.sintatico;
 
-import Analisador.lexico.Simbolos;
-import Analisador.lexico.Token;
+import analisador.lexico.Simbolos;
+import analisador.lexico.Token;
 import java.util.ArrayList;
 
 /**

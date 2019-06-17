@@ -5,10 +5,10 @@
  */
 package compilador;
 
-import Analisador.lexico.Analisador;
-import Analisador.lexico.Simbolos;
-import Analisador.lexico.Token;
-import Analisador.sintatico.Sintatico;
+import analisador.lexico.Analisador;
+import analisador.lexico.Simbolos;
+import analisador.lexico.Token;
+import analisador.sintatico.Sintatico;
 
 import java.awt.BorderLayout;
 import java.io.BufferedReader;
