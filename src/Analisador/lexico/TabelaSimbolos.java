@@ -10,5 +10,19 @@ package Analisador.lexico;
  * @author Alunos
  */
 public class TabelaSimbolos {
-    
+    int memoria;
+    Registro registro;
+    TabelaSimbolos tabelaPai;
 }
+
+class Registro {
+    String nome;
+    String categoria;
+    int nivel;
+    String tipo;
+    int offset;
+    int numeroParametros;
+    String rotulo;
+    TabelaSimbolos tabelaSimbolos;
+}
+

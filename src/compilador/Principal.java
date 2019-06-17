@@ -178,6 +178,7 @@ public class Principal extends javax.swing.JFrame {
                 "Lexema", "Categoria", "Tipo", "Endereço"
             }
         ));
+        jTable2.setEnabled(false);
         jScrollPane3.setViewportView(jTable2);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
